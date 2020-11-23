@@ -1,5 +1,27 @@
+//- bootstrap cards for styling
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  //- h1= title
+  h3.text-center.jumbotron.bg-warning Welcome to #{title}s
+
+  .card-deck
+    .card.bg-primary
+      .card-body.text-center
+        h3.card-text Trust worthy money saving plans. 
+    .card.bg-warning
+      .card-body.text-center
+        h5.card-text 
+          ul  
+            li Business Loans
+            li Saving Accounts
+            li Checking Accounts
+    .card.bg-success
+      .card-body.text-center
+        h5.card-text 
+         ul 
+          li Credit cards
+          li Debit cards
+    .card.bg-danger
+      .card-body.text-center
+        h3.card-text Auto payment plans
