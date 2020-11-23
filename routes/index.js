@@ -1,3 +1,8 @@
+// File Name: index.js
+// Author's Name: Inderpreet
+// Website's Name: Bank_Inder
+// File Description: main routes for the website to navigate to each pages on event call, and page rander information
+
 var express = require('express');
 var router = express.Router();
 

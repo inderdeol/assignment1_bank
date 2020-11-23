@@ -1,3 +1,8 @@
+// File Name: app.js
+// Author's Name: Inderpreet
+// Website's Name: Bank_Inder
+// File Description: main node js code to execute, render pages and include libraries to the server. 
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
